@@ -1,13 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
+import state from './redux/state'
+import renderDOM from './render';
 import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+renderDOM(state);
 
 reportWebVitals();

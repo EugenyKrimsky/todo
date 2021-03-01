@@ -1,0 +1,10 @@
+.block {
+    width: 50%;
+    margin: 0 auto;
+    display: grid;
+    grid-template: 1fr / 13fr 2fr;
+    margin-bottom: 30px;
+}
+.text {
+    height: 30px;
+}

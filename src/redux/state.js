@@ -23,8 +23,11 @@ export const typeTodo = (text) => {
 
 }
 
-// export const toggleTodo = (id) => {
-//     state.todos[id].isDone = !isDone
-// }
+export const toggleTodo = (id) => {
+    // state.todos[id].isDone = true;
+    // renderDOM(state);
+
+    alert(id)
+}
 
 export default state;
